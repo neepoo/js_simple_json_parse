@@ -155,37 +155,3 @@ export class Scanner {
     }
 
 }
-
-//
-// {
-//     const joStr = String.raw`{
-//         "Image": {
-//             "Width":  800,
-//             "Height": 600,
-//             "Title":  "View from 15th Floor",
-//             "Thumbnail": {
-//                 "Url":    "https://www.example.com/image/481989943",
-//                 "Height": 125,
-//                 "Width":  100
-//             },
-//             "Animated" : false,
-//             "IDs": [116, 943, 234, 38793]
-//           },
-//             "True":true,
-//             "False":false,
-//             "NULL":null
-//       }
-// `
-// //     const joStr = String.raw`{"name":"neepoo"}`
-//     const scanner = new Scanner(joStr)
-//     scanner.scanTokens()
-//     const tokens = scanner.tokens
-//     for (const token of tokens) {
-//         console.log(token)
-//         // if (token.type === FALSE){
-//         //     console.log("11111")
-//         //     console.log("eval", eval(token.literal))
-//         // }
-//     }
-//     console.log(EOF === Symbol("EOF"))  // FALSE
-// }
